@@ -14,23 +14,25 @@ html, body {
 
 
 body {
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
   font-family: Inter, sans-sarif;
   color: hsl(0, 0%, 100%);
   background-color: hsl(0, 0%, 8%);
+  
   
 }
 
 
 
 .container {
-  display: grid;
   grid-template-columns: 1fr;
   width: 19em;
   background-color: hsl(0, 0%, 12%);
-  justify-items: center;
-  justify-content: center;
-  align-content: center;
+  text-align: center;
   border-radius: 10px;
+  margin-bottom: 20px;
   
 
 
@@ -67,12 +69,13 @@ h6 {
 
 .link {
   margin-bottom: 20px;
+  margin: 20px;
 }
 
 
   .mint {
     display: block;
-    padding: 12px 80px;
+    padding: 12px;
     margin: 12px;
     border-radius: 5px;
     font-weight: 700;
