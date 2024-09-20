@@ -25,7 +25,6 @@ body {
 
 .card {
   max-width: 100%;
-  min-width: 19em;
   background-color: hsl(0, 0%, 12%);
   display: grid;
   place-items: center;
@@ -42,26 +41,24 @@ img {
 
 h1 {
   font-size: 1.5em;
+  font-weight: 400;
 }
 
 .dun {
-  font-size: 12px;
+  font-size: 0.75rem;
   color: hsl(75, 94%, 57%);
   margin-top: -0.8em;
 }
 
 .avid {
-  font-size: 12px;
+  font-size: 0.75rem;
   margin-top: 0.5em;
-}
-
-.link {
-  /* display: block;
-  list-style: none; */
 }
 
 li {
   list-style: none;
+  margin-right: 1.5em;
+  margin-left: -0.9em;
 }
 
 .mint {
@@ -69,12 +66,17 @@ li {
   background-color: hsl(0, 0%, 20%);
   text-decoration: none;
   color: hsl(0, 0%, 100%);
-  padding: 0.8em 5.5em;
-  margin: 1em;
+  padding: 1em 8em;
+  margin: 1.2em;
+
   font-size: 0.7rem;
   font-weight: 700;
   border-radius: 0.5em;
   text-align: center;
+}
+
+a:hover {
+  color: hsl(75, 94%, 57%);
 }
 
 .attribution {
