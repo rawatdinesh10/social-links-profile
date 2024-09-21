@@ -9,10 +9,10 @@ body {
 }
 
 @font-face {
-  font-family: Inter;
-  src: url(assets/fonts/Inter-VariableFont_slnt\wght.ttf) format(woff);
-  font-weight: 400;
+  font-family: "Inter";
+  src: url(assets/fonts/Inter-VariableFont_slnt\wght.ttf) format(ttf);
   font-style: normal;
+  font-weight: 400;
 }
 
 body {
@@ -76,7 +76,9 @@ li {
 }
 
 a:hover {
-  color: hsl(75, 94%, 57%);
+  transition: 0.5s;
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 20%);
 }
 
 .attribution {
