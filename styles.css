@@ -2,18 +2,10 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: Inter;
 }
 
 * {
   box-sizing: border-box;
-}
-
-@font-face {
-  font-family: "Inter";
-  src: url(assets/fonts/Inter-VariableFont_slnt\wght.ttf) format(ttf);
-  font-style: normal;
-  font-weight: 400;
 }
 
 body {
@@ -22,6 +14,8 @@ body {
   color: hsl(0, 0%, 100%);
   min-height: 100vh;
   background-color: hsl(0, 0%, 8%);
+  font-size: 0.875rem;
+  font-family: "Inter", sans-serif;
 }
 
 .card {
@@ -31,6 +25,7 @@ body {
   place-items: center;
   grid-template-columns: 1fr;
   border-radius: 0.5em;
+  padding: 0.6em;
 }
 
 .rao {
@@ -39,32 +34,31 @@ body {
 }
 
 img {
-  max-width: 4rem;
-  width: 100%;
+  width: 4rem;
+  height: 4rem;
   height: auto;
   border-radius: 50%;
   margin-top: 2em;
+  aspect-ratio: 1;
+  object-fit: cover;
 }
 
 h1 {
-  font-size: 1.5em;
   font-weight: 400;
   margin-bottom: 0.002em;
 }
 
 .dun {
-  font-size: 0.75rem;
   color: hsl(75, 94%, 57%);
   margin-top: 0.2rem;
 }
 
 .avid {
-  font-size: 0.75rem;
   margin-top: 1.2rem;
 }
 
-.link {
-  margin-bottom: 1rem;
+li {
+  list-style: none;
 }
 
 .mint {
@@ -72,9 +66,8 @@ h1 {
   background-color: hsl(0, 0%, 20%);
   text-decoration: none;
   color: hsl(0, 0%, 100%);
-  padding: 1em 7em;
-  margin: 1.3em 2.7em;
-  font-size: 0.7rem;
+  padding: 0.7em 2.5em;
+  margin: 1.3em 2em;
   font-weight: 700;
   border-radius: 0.5em;
   text-align: center;
